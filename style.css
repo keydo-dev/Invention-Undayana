@@ -38,6 +38,11 @@ body {
   display: inline;
   margin: 15px;
 }
+.nav-item ul li :hover{
+  transition: 0.3s;
+  font-size: larger;
+  text-decoration: underline;
+}
 .nav-item ul li a {
   text-decoration: none;
   color: #EDE9CE;
@@ -66,6 +71,11 @@ body {
   display: inline;
   margin: 15px;
 }
+.nav-items ul li :hover{
+  transition: 0.3s;
+  font-size: larger;
+  text-decoration: underline;
+}
 .nav-items ul li a {
   text-decoration: none;
   color: #EDE9CE;
@@ -76,6 +86,11 @@ body {
 }
 .nav-visit ul li {
   margin-left: 30px;
+}
+.nav-visit ul li :hover{
+  transition: 0.3s;
+  font-size: larger;
+  text-decoration: underline;
 }
 .nav-visit ul li a {
   text-decoration: none;
@@ -100,8 +115,7 @@ body {
   text-align: center;
 }
 .btn-more {
-  width: 120px;
-  height: 18px;
+  padding: 8px 40px;
   text-align: center;
   align-items: center;
   margin-top: 10px;
@@ -111,8 +125,12 @@ body {
   background-color: #EDE9CE;
   font-family: Helvetica;
   font-weight: 600;
-  font-size: ;
-  padding: 10px;
+  font-size: large;
+  transition: 0.3s;
+}
+.btn-more:hover{
+  opacity: 60%;
+  color: #000000;
 }
 .about-muuseum {
   width: 100%;
@@ -201,9 +219,11 @@ body {
 .text-title1{
   width: 97%;
   height: 100%;
+  font-size: x-large;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 1rem;
 }
 .text-title2{
   width: 3%;
@@ -212,7 +232,7 @@ body {
   justify-content: end;
   align-items: center;
   font-size: 35px;
-  margin-bottom: 8px;
+  margin-bottom: 1rem;
 }
 .exhibition-list{
   width: 100%;
@@ -266,12 +286,41 @@ body {
 .exhibition-content3{
   width: 28%;
 }
+.button{
+  background-color: #F6F6EC;
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 10px 30px;
+  border-radius: 20px;
+  border: 2px solid black;
+  transition: 0.3s;
+}
+.button:hover{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
 .button-load{
   width: 100%;
   height: 10%;
   margin-top: 6rem;
   display: flex;
   justify-content: center;
+}
+.load-more{
+  padding: 10px 60px;
+  border-radius: 20px;
+  background-color: #000000;
+  color: #F6F6EC;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.load-more:hover{
+  background-color: #F6F6EC;
+  border: 2px solid #000000;
+  color: #000000;
+  cursor: pointer;
 }
 /*Section Collection*/
 .collection{
