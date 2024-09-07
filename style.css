@@ -23,6 +23,20 @@ body {
   align-items: center;
   font-family: Helvetica;
 }
+
+.nav-item ul li a:hover{
+  color: #ff6347;
+  transform: scale(1.1);
+  font-size: 18px;
+  font-weight: 700;
+}
+.nav-items ul li a:hover{
+  color: #ff6347;
+  transform: scale(1.1);
+  font-size: 18px;
+  font-weight: 700;
+}
+
 .nav-item {
   width: 40%;
   height: 100%;
@@ -156,7 +170,7 @@ body {
 
 .teks-bout h1 {
   color: #000;
-  font-size: 35px;
+  font-size: 40px;
   font-weight: 750;
   font-family: "Montserrat";
 }
@@ -164,13 +178,13 @@ body {
   color: #91918c;
   font-family: "Lora";
   font-weight: 400;
-  font-size: 15px;
+  font-size: 20px;
 }
 .more-btn {
   color: #000;
   font-family: Helvetica;
   font-weight: 800;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .card-img {
@@ -411,10 +425,7 @@ body {
   gap: 5rem;
   align-items: center;
 }
-.content-prices :hover{
-  cursor: pointer;
-  transform: translateY(5px);
-}
+
 .card-prices{
   background-color: #2C2905;
   color: white;
@@ -425,7 +436,7 @@ body {
 }
 .card-prices :hover{
   cursor: pointer;
-  transform: translateX(2px);
+  transform: translateX(1px);
   opacity: 60%;
 }
 .content-card{
